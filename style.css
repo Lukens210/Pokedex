@@ -1,3 +1,26 @@
-*{
-    background-color: yellow;
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url("fontes/Pokemon\ Solid.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Pokemon Hollow";
+    src: url("fontes/Pokemon\ Hollow.ttf") format("truetype")
+}
+
+h1{
+    font-family: "Pokemon Solid", sans-serif;
+    font-size: 4.5rem;
+    color: yellow;
+    text-shadow:2px 2px blue,
+    2px -2px blue,
+    -2px -2px blue,
+    -2px 2px blue;
+}
+body{
+    background: linear-gradient(
+        to right, orange, yellow);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
